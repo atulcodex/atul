@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atul Portfolio Site</title>
+
+    <!-- External Css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- External Javascript -->
+    <script src="main.js"></script>
+
+    <!-- FontAwesome Icons Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+    <!-- jquery cdn link -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- magnific popup -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+</head>
+<body>
+    <!-- Header section starts from here -->
+    <header>
+        <a href="#" class="logo">Atul.</a>
+        <div class="toggle" onclick="toggleMenu()"></div>
+        <ul class="menu">
+            <li><a href="#" onclick="toggleMenu()">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#services" onclick="toggleMenu()">Services</a></li>
+            <li><a href="#work" onclick="toggleMenu()">Work</a></li>
+            <li><a href="#testimonial" onclick="toggleMenu()">Testimonial</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact Me</a></li>
+        </ul>
+    </header>
+    <!-- Header section ends from here -->
+
+    <!-- Hero/Banner section starts from here -->
+    <section class="banner">
+        <div class="textBx">
+            <h2>Hello, I'm<br/> <span>Atul Prajapati.</span></h2>
+            <h6>Front End Web Developer.</h6>
+            <button class="btn btn-about">
+                <a href="#about">About Me</a>
+            </button>
+        </div>
+    </section>
+    <!-- Hero/Banner section ends from here -->
+
+    <!-- About Section starts from here -->
+    <section class="about" id="about">
+        <h2 class="heading">About Me.</h2>
+        <div class="about-content">
+            <div class="content-side">
+                <h3>I'm a Front End Web Developer.</h3>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque exercitationem facilis nisi fugiat aperiam ex amet provident reiciendis nulla quas in eum ullam repellendus autem magnam non nobis, maiores quam assumenda, aliquid officiis minus soluta maxime illum. Totam reiciendis assumenda animi hic beatae quam aperiam eligendi id aliquam? Officia dolorum, et beatae quasi minus iste, fugiat quibusdam delectus, sapiente assumenda eligendi eos debitis libero quia recusandae nesciunt! Vero beatae reprehenderit repellendus reiciendis omnis illo maxime, corporis modi provident. 
+                </p>
+                <br/>
+                <p>
+                    Animi, iste suscipit. Omnis quos id magni autem consequatur voluptatibus aliquid cumque, ducimus repellat culpa incidunt. Provident reprehenderit voluptas maiores dolor earum? Amet atque, veritatis et aliquam laborum doloribus placeat dolore omnis. Possimus ducimus corporis perferendis, ut aspernatur perspiciatis quisquam voluptas.
+                </p>
+                <button class="btn btn-resume">
+                    <a href="#" target="_blank">Download Resume</a>
+                </button>
+            </div>
+            <div class="image-side">
+                <img src="img/me.jpg" class="my-img" alt="Atul Prajapati" title="Atul Prajapati">
+            </div>
+        </div>
+    </section>
+    <!-- About Section ends from here -->
+
+    <!-- Services section starts from here -->
+    <section class="services" id="services">
+        <h2 class="heading service-heading"> What i Do. </h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        <div class="service-contents">
+            <div class="service-content">
+                <div class="service-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Web Design</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda sed fugit iste nemo odit earum iure saepe.</p>
+            </div>
+            <div class="service-content">
+                <div class="service-icon">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda sed fugit iste nemo odit earum iure saepe.</p>
+            </div>
+            <div class="service-content">
+                <div class="service-icon">
+                    <i class="fas fa-funnel-dollar"></i>
+                </div>
+                <h3>Digital Marketing</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda sed fugit iste nemo odit earum iure saepe.</p>
+            </div>
+            <div class="service-content">
+                <div class="service-icon">
+                    <i class="fas fa-server"></i>
+                </div>
+                <h3>Web Hosting</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda sed fugit iste nemo odit earum iure saepe.</p>
+            </div>
+            <div class="service-content">
+                <div class="service-icon">
+                    <i class="fab fa-app-store-ios"></i>
+                </div>
+                <h3>App Development</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda sed fugit iste nemo odit earum iure saepe.</p>
+            </div>
+            <div class="service-content">
+                <div class="service-icon">
+                    <i class="fab fa-cloudsmith"></i>
+                </div>
+                <h3>IOT Projects</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda sed fugit iste nemo odit earum iure saepe.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Services section ends from here -->
+
+    <!-- My work section starts from here -->
+    <section class="work" id="work">
+        <h2 class="heading service-heading"> Recent Works. </h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        <div class="work-section">
+            <div class="inner-width">    
+                <div class="work">
+                    <a href="img/work1.png" class="image">
+                        <img src="img/work1.png" alt="one">
+                    </a>
+    
+                    <a href="img/work2.png" class="image">
+                        <img src="img/work2.png" alt="one">
+                    </a>
+    
+                    <a href="img/work3.png" class="image">
+                        <img src="img/work3.png" alt="one">
+                    </a>
+    
+                    <a href="img/work4.png" class="image">
+                        <img src="img/work4.png" alt="one">
+                    </a>
+    
+                    <a href="img/work5.png" class="image">
+                        <img src="img/work5.png" alt="one">
+                    </a>
+    
+                    <a href="img/work6.png" class="image">
+                        <img src="img/work6.png" alt="one">
+                    </a>
+    
+                    <a href="img/work7.png" class="image">
+                        <img src="img/work7.png" alt="one">
+                    </a>
+    
+                    <a href="img/work8.png" class="image">
+                        <img src="img/work8.png" alt="one">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- My work section ends from here -->
+
+    <!-- Testimonial section starts from here -->
+    <section class="testimonial" id="testimonial">
+        <h2 class="heading service-heading"> Client Say's. </h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        <div class="testimonial-content">
+            <div class="testimonial-row">
+                <div class="testimonial-col">
+                    <div class="testimonial-card">
+                        <img src="img/client1.jpg" alt="">
+                        <div class="name">John Waddrob</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque repellat aspernatur temporibus assumenda sint odio minima. Voluptate alias possimus aspernatur.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="testimonial-col">
+                    <div class="testimonial-card">
+                        <img src="img/Client2.jpg" alt="">
+                        <div class="name">John Waddrob</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque repellat aspernatur temporibus assumenda sint odio minima. Voluptate alias possimus aspernatur.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="testimonial-col">
+                    <div class="testimonial-card">
+                        <img src="img/Client3.jpg" alt="">
+                        <div class="name">John Waddrob</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque repellat aspernatur temporibus assumenda sint odio minima. Voluptate alias possimus aspernatur!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial section ends from here -->
+
+    <!-- Contact section starts from here -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact Me.</h2>
+        <p class="sub-heading">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-info-bx">
+                    <h3>Contact Info</h3>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>4671 Sugar Camp Road,<br/> Owattona, Minnesota, 55060.</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>+91 9845 673248</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="far fa-envelope"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>me@atulprajapati.in</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-bx">
+                    <form action="">
+                        <h3>Message Me</h3>
+                        <input type="text" name="" placeholder="Enter Name" required>
+                        <input type="email" name="" placeholder="Enter Email" required>
+                        <textarea name="" id="" placeholder="Your Message"></textarea>
+                        <input type="submit" value="Send">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact section ends from here -->
+
+    <hr>
+
+    <!-- Copyright section starts from here -->
+    <div class="copyright">
+        <p>Copyright © 2020 Atul Prajapati. All Rights Reserved.</p>
+    </div>
+    <!-- Copyright section ends from here -->
+        
+    <!-- Recent work section JS code starts from here -->
+    <script>
+        $(".work").magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            work:{
+                enabled: true
+            }
+        });
+    </script>
+    <!-- Recent work section JS code ends from here -->
+</body>
+</html>
